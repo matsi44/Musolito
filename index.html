@@ -9,12 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="./images/favicon real.jpg" type="image/x-icon">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Musolito</title>
 </head>
 <body>
     <div class="contenedor-index">
         <div class="free-shipping">
-            <h2>Free Shipping on Orders Over 50$</h2>
+            <h2 class="animation">Free Shipping on Orders Over 50$</h2>
         </div>
         <header class="header">
             <div class="header-logo">
@@ -45,13 +48,13 @@
                     <h2>Our Catalog</h2>
                 </div>
                 <div class="main-section2-photos">
-                    <div>
+                    <div data-aos="flip-up">
                     <img src="images/catalogo1.jpg" alt="catalogo1">
                     </div>
-                    <div>
+                    <div data-aos="flip-up">
                     <img src="images/catalogo2.jpg" alt="catalogo2">
                     </div>
-                    <div>
+                    <div data-aos="flip-up">
                     <img src="images/catalogo3.jpg" alt="catalogo3">
                     </div>
                 </div>
@@ -81,7 +84,7 @@
         </main>
         <footer class="footer">
                 <div class="footer-logo">
-                    <a href="#"><img src="./images/footer.jpg" alt="musolitofooter"></a>
+                    <a href="./index.html"><img src="./images/footer.jpg" alt="musolitofooter"></a>
                 </div>
                 <div class="footer-text">
                     <p>Nature honors those of us who obey her laws.🌎</p> <br>
@@ -114,5 +117,8 @@
                 </div>
         </footer>
     </div>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
