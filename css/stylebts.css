@@ -1,0 +1,23 @@
+git config --listhtml{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Free Shipping */
+
+.free-shipping{
+    background-color: black;
+    color: white;
+    padding-top: 0.7rem;
+}
+
+/* HEADER */
+
