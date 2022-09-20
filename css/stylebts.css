@@ -290,3 +290,14 @@ ul{
     justify-self: center;
     align-self: center;
 }
+
+/* INDEX-CARDS */
+
+.bg-secondary {
+    background-color: red!important;
+    }
+
+    .btn-primary {
+    --bs-btn-bg: green;
+    --bs-btn-border-color: green;
+    }
