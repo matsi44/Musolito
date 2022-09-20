@@ -20,3 +20,273 @@ body{
 }
 
 /* HEADER */
+
+
+/* MAIN-INDEX */
+
+.main-photo{
+    grid-area: photo;
+    background-image: url(../images/banner1.jpg);
+    width: 100%;
+    height: 56rem;
+    background-size: cover;
+    margin-bottom: 1.5rem;
+}
+
+/* main section1 */
+
+.main-section1{
+    border: solid;
+    border-left: none;
+    border-right: none;
+    border-width: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+.main-section1-title h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 1.5rem;
+    font-size: x-large;
+}
+
+.main-section1-text p{
+    text-align: center;
+    font-weight: 300;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    word-spacing: 0.1rem;
+}
+
+/* main section 2 */
+
+
+.title-catalog h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 1.5rem;
+    font-size: x-large;
+}
+
+.main-section2{
+    margin-top: 1.5rem;
+}
+
+.main-section2-div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-section2-text{
+    text-decoration: line-through;
+    color: red;
+}
+
+/* main section 3 */
+
+.main-section3{
+    border-top: solid;
+    border-width: 0.2rem;
+    margin-top: 1.5rem;
+}
+
+
+.main-section3-title h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 1.5rem;
+    font-size: x-large;
+}
+
+.main-section3-text p{
+    text-align: center;
+    font-weight: 300;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 40rem;
+    margin-right: 40rem;
+    word-spacing: 0.1rem;
+}
+
+/* BLOG POSTS */
+
+.blog-title h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 1.5rem;
+    font-size: x-large;
+}
+
+.section-blog {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "avocado ppo"
+    "avocado ppo"
+    ;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 1.5rem;
+}
+
+.blog-div1{
+    grid-area: avocado;
+    text-align: center;
+}
+
+.blog-div2{
+    grid-area: ppo;
+    text-align: center;
+}
+
+.blog-div1 h3{
+    color: black;
+}
+
+.blog-div1 a {
+    color: black;
+    text-decoration: underline;
+}
+
+.blog-div1 p{
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+.blog-div2 h3{
+    color: black;
+}
+
+.blog-div2 a {
+    color: black;
+    text-decoration: underline;
+}
+
+.blog-div2 p{
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
+/* main section 4 */
+
+.main-section4{
+    border-top: solid;
+}
+
+.main-section4-items{
+    margin: 1.5rem;
+}
+
+.main-section4-items h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 1.5rem;
+    font-size: x-large;
+}
+
+.main-section4-items p{
+    text-align: center;
+    font-weight: 300;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    word-spacing: 0.1rem;
+}
+
+.main-section4-items{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* INDEX FOOTER */
+
+.footer{
+    background: black;
+    grid-area: footer;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: 
+    "logo texto links"
+    "submit texto socialmedia"
+    ;
+    justify-items: center;
+    align-items: center;
+}
+
+/* logo */
+
+.footer-logo{
+    grid-area: logo;
+}
+
+/* text */
+
+.footer-text {
+    grid-area: texto;
+    margin-bottom: 4rem;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.footer-text p{
+    color: #9fa0a1;
+}
+
+/* links */
+
+.footer-links{
+    grid-area: links;
+}
+
+.footer-links li h4{
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+    margin-top: 1.5rem;
+}
+
+.footer-links li a{
+    text-decoration: none;
+    color: #9fa0a1;
+    font-weight: 300;
+    font-size: medium;
+}
+
+.footer-links :hover a{
+    text-decoration: underline;
+}
+
+ul{
+    list-style-type: none;
+}
+/* email */
+
+.footer-submit{
+    grid-area: submit;
+}
+
+.footer-submit h4{
+    color: white;
+    font-weight: 500;
+    font-size: medium;
+}
+
+.footer-submit form{
+    margin: 1rem;
+}
+
+/* social media */
+
+.footer-socialmedia{
+    grid-area: socialmedia;
+    justify-self: center;
+    align-self: center;
+}
