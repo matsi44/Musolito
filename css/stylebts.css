@@ -294,10 +294,14 @@ ul{
 /* INDEX-CARDS */
 
 .bg-secondary {
-    background-color: red!important;
-    }
+    background-color: grey!important;
+}
 
-    .btn-primary {
-    --bs-btn-bg: green;
-    --bs-btn-border-color: green;
-    }
+.rojo{
+    background-color: red !important;
+}
+
+/* CONTACT */
+
+/* free shipping */
+
