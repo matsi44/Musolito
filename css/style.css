@@ -267,6 +267,7 @@ body{
 
 .footer-links{
     grid-area: links;
+    list-style-type: none;
 }
 
 .footer-links li h4{
@@ -310,6 +311,7 @@ body{
     justify-self: center;
     align-self: center;
 }
+
 
 /* MAIN-KNIVES */
 
