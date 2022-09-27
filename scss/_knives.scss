@@ -1,0 +1,43 @@
+.contenedor-knives{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas: 
+    "freeS freeS freeS"
+    "header header header"
+    "maink maink maink"
+    "footer footer footer"
+    ;
+}
+
+.main-knives{
+    border-top: solid;
+    border-width: 0.2rem;
+    grid-area: maink;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    h2{
+        text-align: center;
+        font-weight: 700;
+        margin: 1.5rem;
+        font-size: x-large;
+    }
+    th{
+        font-size: large;
+        font-weight: 500;
+    }
+    td{
+        font-size: large;
+        font-weight: 300;
+    }
+}
+
+.main-knives-table{
+    height: 30rem;
+    width: 50rem;
+    margin: 1.5rem;
+}

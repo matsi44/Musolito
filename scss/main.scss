@@ -1,0 +1,16 @@
+
+git config --listhtml{
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+@import "vars";
+@import "index";
+@import "knives";
