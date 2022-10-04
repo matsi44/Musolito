@@ -8,6 +8,28 @@ git config --listhtml {
 body {
   font-family: 'Roboto', sans-serif; }
 
+/* CONDICIONALES */
+body .free-shipping {
+  background-color: black; }
+
+body .footer {
+  background-color: black; }
+
+/* BUCLES */
+.new-1 {
+  width: 105%;
+  height: 105%; }
+
+.new-2 {
+  width: 110%;
+  height: 110%; }
+
+.new-3 {
+  width: 115%;
+  height: 115%; }
+
+/* EACH */
+/* MAPS */
 /* GRID Index */
 .contenedor-index {
   display: grid;
@@ -126,6 +148,9 @@ body {
   .main-section2-photos img:hover {
     width: 110%;
     height: 110%; }
+
+.rojo {
+  background-color: red !important; }
 
 /* MAIN SECTION 3 */
 .main-section3 {

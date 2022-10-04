@@ -1,2 +1,38 @@
 $title-size: 2rem;
 $text-size: 1.5rem;
+
+/* CONDICIONALES */
+$fiesta: normal;
+
+body{
+    @if $fiesta == navidad{
+    .free-shipping{
+        background-color: red;
+    }
+    .footer{
+        background-color: red;
+    }
+    } @else {
+        .free-shipping{
+            background-color: black;
+        }
+        .footer{
+            background-color: black;
+        }
+    }
+}
+
+/* BUCLES */
+
+@for $i from 1 through 3{
+    .new-#{$i}{
+        width: 100% + 5*$i;
+        height:100% + 5*$i;
+    }
+}
+
+/* EACH */
+
+
+
+/* MAPS */
