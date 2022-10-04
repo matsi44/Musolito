@@ -1,0 +1,67 @@
+/* MAIN BLOG */
+.contenedor-blog{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "freeS freeS freeS"
+    "header header header"
+    "mainb mainb mainb"
+    "footer footer footer"
+}
+
+.main-blog{
+    grid-area: mainb;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-top: solid;
+    border-width: 0.2rem;
+}
+
+.main-blog-section {
+    h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 1.5rem;
+    font-size: x-large;
+    }
+    h3{
+        text-align: center;
+        font-weight: 700;
+        margin: 1.5rem;
+        font-size: x-large;
+    }
+    p{
+        text-align: center;
+        font-weight: 300;
+        margin: 1.5rem;
+        font-size: 1.5rem;
+        word-spacing: 0.1rem;
+    }
+}
+
+
+@keyframes freeshipping {
+    0%{
+        opacity: 100%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+.animation{
+    animation-name: freeshipping;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}

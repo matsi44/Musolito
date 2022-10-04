@@ -1,0 +1,196 @@
+/* TABLET */
+@media screen and   (max-width: 768px) {
+    .contenedor-index{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+        "freeS freeS"
+        "header header"
+        "main main"
+        "footer footer"
+    }
+
+    .main-section1-text p{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        text-align: center;
+    }
+
+    .main-section2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: auto;
+    }
+
+    .main-section3-text p{
+        margin-left: 10rem;
+        margin-right: 10rem;
+        text-align: center;
+    }
+
+    .footer-logo img{
+        width: 80%;
+        margin-left: 1rem;
+    }
+
+    .footer-text p{
+        margin-right: 2rem;
+    }
+
+
+/* TABLET-Knives */
+.contenedor-knives{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "freeS freeS"
+    "header header"
+    "maink maink"
+    "footer footer"
+}
+
+/* TABLET-Tracking */
+.contenedor-tracking{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "freeS freeS"
+    "header header"
+    "maint maint"
+    "footer footer"
+}
+
+/* TABLET-Contact */
+.contenedor-contact{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "freeS freeS"
+    "header header"
+    "mainc mainc"
+    "footer footer"
+}
+
+/* TABLET-Blog */
+.contenedor-blog{
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "freeS freeS"
+    "header header"
+    "mainb mainb"
+    "footer footer"
+}
+}
+
+/* MOBILE */
+@media  (max-width: 500px) {
+    .contenedor-index{
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+        "freeS"
+        "header"
+        "main"
+        "footer"
+        ;
+    }
+
+    .header{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-logo{
+        margin-bottom: 1rem;
+    }
+    .header-nav ul li{
+        display: inline-block;
+    }
+
+    .main{
+        grid-area: main;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas: 
+        "section1"
+        "section2"
+        "section3"
+        "section4"
+        ;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .main-photo{
+        display: none;
+    }
+
+    .main-section1-text p{
+        font-size: small;
+        margin: 0 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .main-section3-text p{
+        font-size: small;
+        margin: 0 4rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer-logo{
+        display: none;
+    }
+
+/* MOBILE-Knives */
+.contenedor-knives{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "freeS"
+    "header"
+    "maink"
+    "footer"
+    ;
+}
+
+/* MOBILE-Tracking */
+.contenedor-tracking{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "freeS"
+    "header"
+    "maint"
+    "footer"
+    ;
+}
+
+/* MOBILE-Contact */
+.contenedor-contact{
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas:
+    "freeS"
+    "header"
+    "mainc"
+    "footer"
+    ;   
+}
+
+/* MOBILE-Blog */
+.contenedor-blog{
+    grid-template-columns: 1fr;
+grid-template-rows: auto auto auto auto;
+grid-template-areas:
+"freeS"
+"header"
+"mainb"
+"footer"
+;
+}
+}

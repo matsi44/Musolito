@@ -1,0 +1,39 @@
+/* MAIN CONTACT */
+.contenedor-contact{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "freeS freeS freeS"
+    "header header header"
+    "mainc mainc mainc"
+    "footer footer footer"
+    ;
+}
+
+.main-contact{
+    grid-area: mainc;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-top: solid;
+    border-width: 0.2rem;
+}
+
+.main-contact-h2 h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 1.5rem;
+    font-size: x-large;
+}
+
+.main-contact-form{
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: medium;
+    padding: 2rem;
+}

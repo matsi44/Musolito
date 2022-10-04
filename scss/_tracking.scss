@@ -1,0 +1,43 @@
+/* MAIN TRACKING */
+.contenedor-tracking{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: 
+    "freeS freeS freeS"
+    "header header header"
+    "maint maint maint"
+    "footer footer footer"
+    ;
+}
+
+.main-tracking{
+    grid-area: maint;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-top: solid;
+    border-width: 0.2rem;
+}
+
+.main-tracking-h2 h2{
+    text-align: center;
+    font-weight: 700;
+    margin: 1.5rem;
+    font-size: x-large;
+}
+
+.main-tracking-h4 h4{
+    text-align: center;
+    font-weight: 500;
+    margin: 1.5rem;
+    font-size: large;
+}
+
+.main-tracking-form{
+    margin-bottom: 1.5rem;
+}

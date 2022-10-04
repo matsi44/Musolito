@@ -15,19 +15,22 @@
 /* Index FreeShipping */
 
 .free-shipping{
-    grid-area: freeS;
-    display: flex;
-    background-color: black;
-    color: white;
-    height: 4rem;
-    justify-content: center;
-    align-items: center;
-    background: rgb(0,0,0);
-    background: radial-gradient(circle, rgba(0,0,0,1) 65%, rgba(110,110,110,1) 100%);
-    h2{
-        text-align: center;
-        font-weight: 500;
-    }
+        grid-area: freeS;
+        display: flex;
+        background-color: black;
+        color: white;
+        height: 3rem;
+        justify-content: center;
+        align-items: center;
+        h4{
+            text-align: center;
+            font-weight: 500;
+            padding-top: 0.5rem;
+        }
+}
+
+.bg-secondary {
+    background-color: green !important;
 }
 
 /* INDEX HEADER */
