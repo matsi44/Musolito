@@ -13,10 +13,7 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
   grid-template-rows: auto auto 1fr auto;
-  grid-template-areas: "freeS freeS freeS"
- "header header header"
- "main main main"
- "footer footer footer"; }
+  grid-template-areas: "freeS freeS freeS" "header header header" "main main main" "footer footer footer"; }
 
 /* Index FreeShipping */
 .free-shipping {
@@ -73,11 +70,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto 0.3fr 0.5fr 0.5fr 0.5fr;
-  grid-template-areas: "photo"
- "section1"
- "section2"
- "section3"
- "section4";
+  grid-template-areas: "photo" "section1" "section2" "section3" "section4";
   justify-items: center;
   align-items: center; }
 
@@ -116,10 +109,7 @@ body {
 /* MAIN SECTION 2 */
 .main-section2 {
   grid-area: section2;
-  width: 100%;
-  margin-top: 1.5rem;
-}
-
+  width: 100%; }
 
 .main-section2-title h2 {
   text-align: center;
@@ -135,25 +125,7 @@ body {
   margin-bottom: 1.5rem; }
   .main-section2-photos img:hover {
     width: 110%;
-    height: 110%;}
-
-    .title-catalog h2{
-      text-align: center;
-      font-weight: 700;
-      margin: 1.5rem;
-      font-size: x-large;
-  }
-  .main-section2-div{
-      display: flex;
-      justify-content: space-evenly;
-  }
-  .main-section2-text{
-      text-decoration: line-through;
-      color: red;
-}
-.rojo{
-  background-color: red !important;
-}
+    height: 110%; }
 
 /* MAIN SECTION 3 */
 .main-section3 {
@@ -206,8 +178,7 @@ body {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: 1fr 1fr;
-  grid-template-areas: "logo texto links"
- "submit texto socialmedia";
+  grid-template-areas: "logo texto links" "submit texto socialmedia";
   justify-items: center;
   align-items: center; }
 
@@ -263,10 +234,7 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
   grid-template-rows: auto auto 1fr auto;
-  grid-template-areas: "freeS freeS freeS"
- "header header header"
- "maink maink maink"
- "footer footer footer"; }
+  grid-template-areas: "freeS freeS freeS" "header header header" "maink maink maink" "footer footer footer"; }
 
 .main-knives {
   border-top: solid;
@@ -300,10 +268,7 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: "freeS freeS freeS"
- "header header header"
- "maint maint maint"
- "footer footer footer"; }
+  grid-template-areas: "freeS freeS freeS" "header header header" "maint maint maint" "footer footer footer"; }
 
 .main-tracking {
   grid-area: maint;
@@ -337,10 +302,7 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: "freeS freeS freeS"
- "header header header"
- "mainc mainc mainc"
- "footer footer footer"; }
+  grid-template-areas: "freeS freeS freeS" "header header header" "mainc mainc mainc" "footer footer footer"; }
 
 .main-contact {
   grid-area: mainc;
@@ -371,10 +333,7 @@ body {
   display: grid;
   grid-template-columns: 0.5fr 1fr 0.5fr;
   grid-template-rows: auto auto auto auto;
-  grid-template-areas: "freeS freeS freeS"
- "header header header"
- "mainb mainb mainb"
- "footer footer footer"; }
+  grid-template-areas: "freeS freeS freeS" "header header header" "mainb mainb mainb" "footer footer footer"; }
 
 .main-blog {
   grid-area: mainb;
@@ -427,10 +386,7 @@ body {
   .contenedor-index {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS freeS"
- "header header"
- "main main"
- "footer footer"; }
+    grid-template-areas: "freeS freeS" "header header" "main main" "footer footer"; }
   .main-section1-text p {
     margin-left: 10rem;
     margin-right: 10rem;
@@ -455,44 +411,29 @@ body {
   .contenedor-knives {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS freeS"
- "header header"
- "maink maink"
- "footer footer"; }
+    grid-template-areas: "freeS freeS" "header header" "maink maink" "footer footer"; }
   /* TABLET-Tracking */
   .contenedor-tracking {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS freeS"
- "header header"
- "maint maint"
- "footer footer"; }
+    grid-template-areas: "freeS freeS" "header header" "maint maint" "footer footer"; }
   /* TABLET-Contact */
   .contenedor-contact {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS freeS"
- "header header"
- "mainc mainc"
- "footer footer"; }
+    grid-template-areas: "freeS freeS" "header header" "mainc mainc" "footer footer"; }
   /* TABLET-Blog */
   .contenedor-blog {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS freeS"
- "header header"
- "mainb mainb"
- "footer footer"; } }
+    grid-template-areas: "freeS freeS" "header header" "mainb mainb" "footer footer"; } }
 
 /* MOBILE */
 @media (max-width: 500px) {
   .contenedor-index {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS"
- "header"
- "main"
- "footer"; }
+    grid-template-areas: "freeS" "header" "main" "footer"; }
   .header {
     display: flex;
     flex-direction: column; }
@@ -505,10 +446,7 @@ body {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "section1"
- "section2"
- "section3"
- "section4";
+    grid-template-areas: "section1" "section2" "section3" "section4";
     justify-items: center;
     align-items: center; }
   .main-photo {
@@ -527,31 +465,19 @@ body {
   .contenedor-knives {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS"
- "header"
- "maink"
- "footer"; }
+    grid-template-areas: "freeS" "header" "maink" "footer"; }
   /* MOBILE-Tracking */
   .contenedor-tracking {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS"
- "header"
- "maint"
- "footer"; }
+    grid-template-areas: "freeS" "header" "maint" "footer"; }
   /* MOBILE-Contact */
   .contenedor-contact {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS"
- "header"
- "mainc"
- "footer"; }
+    grid-template-areas: "freeS" "header" "mainc" "footer"; }
   /* MOBILE-Blog */
   .contenedor-blog {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
-    grid-template-areas: "freeS"
- "header"
- "mainb"
- "footer"; } }
+    grid-template-areas: "freeS" "header" "mainb" "footer"; } }
