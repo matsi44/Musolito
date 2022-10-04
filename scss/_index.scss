@@ -31,6 +31,7 @@
 
 .bg-secondary {
     background-color: green !important;
+    margin-top: 0.2rem;
 }
 
 /* INDEX HEADER */
@@ -117,21 +118,21 @@
 }
 
 .main-section1-title h2{
-    text-align: center;
-    font-weight: 700;
-    margin: 1.5rem;
+    text-align: map-get($titulos, $alineacion);
+    font-weight: map-get($titulos , $fuente);
+    margin-top: map-get($titulos, $margin);
     font-size: $title-size;
 }
 
 .main-section1-text p{
-    text-align: center;
-    font-weight: 300;
+    text-align: map-get($textos, $alineacion);
+    font-weight: map-get($textos, $fuente);
     margin: 1.5rem;
     font-size: $text-size;
     margin-bottom: 1.5rem;
     margin-left: 40rem;
     margin-right: 40rem;
-    word-spacing: 0.1rem;
+    word-spacing: map-get($textos, $spacing);
 }
 
 /* MAIN SECTION 2 */

@@ -31,8 +31,18 @@ body{
     }
 }
 
-/* EACH */
-
-
-
 /* MAPS */
+
+$titulos:(
+    color: black,
+    alineacion: center,
+    fuente: 700,
+    margin: 1.5rem
+);
+
+$textos:(
+    color: black,
+    alineacion: center,
+    fuente: 300,
+    spacing:0.1rem
+)

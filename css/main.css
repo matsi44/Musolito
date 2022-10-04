@@ -28,7 +28,6 @@ body .footer {
   width: 115%;
   height: 115%; }
 
-/* EACH */
 /* MAPS */
 /* GRID Index */
 .contenedor-index {
@@ -52,7 +51,8 @@ body .footer {
     padding-top: 0.5rem; }
 
 .bg-secondary {
-  background-color: green !important; }
+  background-color: green !important;
+  margin-top: 0.2rem; }
 
 /* INDEX HEADER */
 .header {
