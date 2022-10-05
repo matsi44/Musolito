@@ -46,7 +46,7 @@
     ;
     justify-items: center;
     align-items: center;
-    margin: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 .header-logo{
@@ -76,7 +76,6 @@
         a:hover{
             text-decoration: underline;
         }
-        
     }
 }
 
@@ -143,10 +142,7 @@
 }
 
 .main-section2-title h2{
-    text-align: center;
-    font-weight: 700;
-    margin: 1.5rem;
-    font-size: $title-size;
+    @extend .main-section1-tittle;
 }
 
 .main-section2-photos{
@@ -175,21 +171,11 @@
 }
 
 .main-section3-title h2{
-    text-align: center;
-    font-weight: 700;
-    margin: 1.5rem;
-    font-size: $title-size;
+    @extend .main-section1-tittle;
 }
 
 .main-section3-text p{
-    text-align: center;
-    font-weight: 300;
-    margin: 1.5rem;
-    font-size: $text-size;
-    margin-bottom: 1.5rem;
-    margin-left: 40rem;
-    margin-right: 40rem;
-    word-spacing: 0.1rem;
+    @extend .main-section1-text;
 }
 
 /* MAIN SECTION 4 */
@@ -205,17 +191,10 @@
     align-items: center;
     justify-content: center;
     h2{
-        text-align: center;
-        font-weight: 700;
-        margin: 1.5rem;
-        font-size: $title-size;
+        @extend .main-section1-tittle;
     }
     p{
-        text-align: center;
-        font-weight: 300;
-        margin: 1.5rem;
-        font-size: $text-size;
-        word-spacing: 0.1rem;
+        @extend .main-section1-text;
     }
 }
 
@@ -299,8 +278,3 @@
     justify-self: center;
     align-self: center;
 }
-
-
-
-
-
